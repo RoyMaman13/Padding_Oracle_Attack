@@ -16,9 +16,10 @@ IV: The initialization vector used in the CBC encryption process.
 ### Testing
 The project includes a test file, testEx1.py, which validates the decryption process against known inputs and outputs.
 
-How to Run the Test
-The test script reads inputs from input.txt.
-The expected output is stored in output.txt.
+How to Run the Test:
+
+The test script reads inputs from inputs.txt.
+The expected output is stored in outputs.txt.
 To execute the test, run:
 ```bash
 py testEx1.py
@@ -27,9 +28,12 @@ The script will compare the results with the expected output and print the resul
 
 ### Files
 ex1.py: Main script that performs the padding oracle attack decryption.
+
 testEx1.py: Test script to verify correct decryption.
-input.txt: Contains the test ciphertext, key, and IV for testing purposes.
-output.txt: Contains the expected output for comparison.
+
+inputs.txt: Contains the test ciphertext, key, and IV for testing purposes.
+
+outputs.txt: Contains the expected output for comparison.
 
 ### Prerequisites
 Python 3.x
